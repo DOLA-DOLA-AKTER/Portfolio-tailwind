@@ -22,7 +22,9 @@ button.slick-next.slick-arrow {
     height: 60px;
     border-radius: 50%;
     position: absolute;
-    background: orange;
+    background: transparent;
+    font-weight: bold;
+    border: 1px solid white;
     color: white;
     right: 0;
     top: 45%;
@@ -30,10 +32,17 @@ button.slick-next.slick-arrow {
 button.slick-prev.slick-arrow {
     width: 60px;
     height: 60px;
-    background: orange;
+    background: transparent;
+    font-weight: bold;
+    border: 1px solid white;
     color: white;
+    font-size: 12px;
     border-radius: 50%;
     position: absolute;
     top: 45%;
     z-index: 1;
+}
+
+.active{
+    border-bottom: 1px solid orange;
 }
