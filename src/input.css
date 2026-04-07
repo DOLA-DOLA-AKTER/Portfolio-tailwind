@@ -17,3 +17,23 @@
 @utility padding{
     @apply py-20 lg:py-25 md:py-22.5 px-5;
 }
+button.slick-next.slick-arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background: orange;
+    color: white;
+    right: 0;
+    top: 45%;
+}
+button.slick-prev.slick-arrow {
+    width: 60px;
+    height: 60px;
+    background: orange;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+}

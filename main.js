@@ -66,3 +66,14 @@ closeModalBtn.addEventListener('click', hideModal);
     //         hideModal();
     //     }
     // });
+
+$(document).ready(function(){
+  $('.banner_slider').slick({
+     dots: false,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true
+  });
+});    
